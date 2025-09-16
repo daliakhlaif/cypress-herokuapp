@@ -1,34 +1,24 @@
 # cypress-herokuapp
 
-Practice repository for Cypress end-to-end (E2E) tests using **TypeScript**.  
+Practice repository for Cypress end-to-end (E2E) tests using **TypeScript** and **Page Object Model (POM)**. 
 This project is built to explore and practice Cypress automation on the [Herokuapp demo site](https://the-internet.herokuapp.com/).
 
 ---
 
 ## 🚀 Features
 - Cypress E2E tests with TypeScript
-- Organized test structure
+- Page Object Model (POM) design pattern for organized tests
 - Reusable Cypress commands
 - Example test cases on common UI scenarios
 
 ---
 
-## 📝 Test Stages
-
-### ✅ Stage 1 (Basic Interactions) – Completed
+### 📝 Completed Test Cases
 - [x] Login page tests (valid & invalid login)
 - [x] Checkboxes interactions (select / unselect)
 - [x] Dropdown menu selections
-
-### 🔄 Stage 2 (Advanced Scenarios) – In Progress
-Planned next steps:
-- [ ] Multi-page workflows (e.g., login → navigate → verify result)
-- [ ] Dynamic elements (dynamic loading / waits / intercepts)
-- [ ] File upload & download tests
-- [ ] Complex JavaScript alerts (confirmations & prompts)
-- [ ] Assertions on tables / dynamic content
-- [ ] Negative workflows (invalid login redirect, empty forms, etc.)
-
+- [x] File upload tests
+- [x] JavaScript alerts (confirmations & prompts)
 ---
 
 ## 🛠️ Tech Stack
@@ -43,7 +33,10 @@ cypress-herokuapp/
 │── cypress/
 │   ├── e2e/         # Test files
 │   ├── fixtures/    # Test data
-│   ├── support/     # Custom commands & setup
+│   ├── support/
+|   |   ├── pages/   # Page Object Model files
+|   |   |__          # Custom commands & setup
+|   |  
 │   │── tsconfig.json
 |
 │── cypress.config.js
