@@ -1,0 +1,5 @@
+{
+    "invalidUsername" : "Your username is invalid!",
+    "invalidPassword" : "Your password is invalid!",
+    "errorPage": "Internal Server Error"
+}
