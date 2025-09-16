@@ -1,0 +1,16 @@
+{
+  "jsAlert": {
+    "buttonText": "I am a JS Alert",
+    "resultText": "You successfully clicked an alert"
+  },
+  "jsConfirm": {
+    "buttonText": "I am a JS Confirm",
+    "okResult": "You clicked: Ok",
+    "cancelResult": "You clicked: Cancel"
+  },
+  "jsPrompt": {
+    "promptInput": "Hello Cypress",
+    "enteredResult": "You entered: Hello Cypress",
+    "cancelResult": "You entered: null"
+  }
+}

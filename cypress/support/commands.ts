@@ -23,3 +23,22 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import loginPage from "./pages/login-page"
+
+declare global {
+  namespace Cypress {
+    interface Chainable {
+      login(email: string, password: string): Chainable<void>
+      
+    }
+  }
+}
+
+Cypress.Commands.add('login', (username: string, password: string) => {
+
+  loginPage.typeUsername(username)
+  loginPage.typePassword(password)
+  loginPage.clickSubmit()
+
+})
