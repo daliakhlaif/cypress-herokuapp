@@ -3,6 +3,8 @@
 Practice repository for Cypress end-to-end (E2E) tests using **TypeScript** and **Page Object Model (POM)**. 
 This project is built to explore and practice Cypress automation on the [Herokuapp demo site](https://the-internet.herokuapp.com/).
 
+[![cypress-example](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/ng8k6q&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/ng8k6q/runs) :point_left: click here to see test results on Cypress dashboard
+
 ---
 
 ## 🚀 Features
