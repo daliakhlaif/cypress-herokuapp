@@ -36,11 +36,10 @@ cypress-herokuapp/
 │   ├── e2e/         # Test files
 │   ├── fixtures/    # Test data
 │   ├── support/
-|   |   ├── pages/   # Page Object Model files
-|   |   |__          # Custom commands & setup
-|   |  
-│   │── tsconfig.json
-|
+│   │   ├── pages/   # Page Object Model files
+│   │   └── commands.ts  # Custom commands & setup
+│   └── tsconfig.json
+│
 │── cypress.config.js
 │── package-lock.json
 │── package.json
@@ -67,16 +66,16 @@ npm install
 ```bash
 npx cypress open
 ```
-- Run tests in headless mode:
+- Run tests in headless mode and record results to dashboard:
 ```bash
-npx cypress run
+npx cypress run --record --key <your-record-key>
 ```
 
 ---
 
 ## 📌 Notes
 This is a **practice repository** for learning and improving Cypress test automation skills.  
-It is not intended for production use.
+Replace `<your-record-key>` with your actual Cypress Dashboard record key to see test results on the dashboard.
 
 ---
 
