@@ -1,3 +1,2 @@
 # cypress-herokuapp
 
-Practice repository 
